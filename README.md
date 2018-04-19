@@ -1,6 +1,6 @@
 # Mapping and Slam: Map My World Robot
 
-### dacity Robond Project
+### Udacity Robond Project
 
 ## Project Introduction
 
@@ -37,6 +37,20 @@ We are excited to see you grow with your ROS skills and we can't wait to see wha
 1. This project is intended to be completed in the Udacity Workspace or on Jetson TX2. You might encounter performance issue on personal laptop or the VM.
 
 2. If you are working on Jetson TX2, you could use jetson_clocks.sh script in the home folder to speed it up! 
+
+
+## Sensor Upgrades
+
+The recommended configuration for RTAB-Map is as follows:
+- 2D laser which publishes LaserScan sensor_msgs/LaserScan messages
+- Odometry (IMU, wheel encoders, ...) which publishes nav_msgs/Odometry messages
+- A calibrated RGB-D sensor
+
+You may notice that a 2D laser scanner is listed and although it is recommended, it is not required. We will touch more on that shortly. 
+
+### RTAB-Map Quick Sensor Overview
+
+When building your ROS package you will need to make sure that you are publishing the right information for RTAB-Map to successfully work. In the image below you can get a visual overview of the high level connections enabling both mapping and localization. 
 
 
 ## Building Launch Files
