@@ -54,6 +54,9 @@ When building your ROS package you will need to make sure that you are publishin
 
 Before we move to how we are going to update our robot with an RGB-D camera, let's touch on how you could set up your robot (simulated and real) with just an RGB-D camera. Removing the laser scanner does not mean that we no longer need the scan topic, but that we need to find a new way to generate this scan topic. This is where the depthimage_to_laserscan package for the Kinect comes in. This package illustrates and provides a method of mapping the depth point cloud into a usable scan topic. This remapping can be viewed in the image below. 
 
+This is a convenient solution for those without a laser scanner on their robot. Since we are upgrading our robot from the previous project, we will elect to keep the laser range finder and the scan topic it provides and sticking with RTAB-Maps optimal configuration. 
+
+Furthermore, it can be noted that the scan input topic is a convenient way to efficiently create an occupancy grid based on 2D ray tracing. However, you can achieve the same results with depth image, but it is more costly to generate.
 
 ## Building Launch Files
 
