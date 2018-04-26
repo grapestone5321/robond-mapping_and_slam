@@ -58,6 +58,11 @@ This is a convenient solution for those without a laser scanner on their robot. 
 
 Furthermore, it can be noted that the scan input topic is a convenient way to efficiently create an occupancy grid based on 2D ray tracing. However, you can achieve the same results with depth image, but it is more costly to generate.
 
+### Configuring the RGB-D Camera
+
+In the previous project you constructed an RGB camera, now it's time to give that an upgrade. Specifically, we will simulate a Kinect camera. 
+
+
 ## Building Launch Files
 
 You now know what needs to be done to upgrade your robot, so now it's time to turn our attention to the launch files for the project. There are infinitely many ways to set up your launch files. You could even go as far as having a single launch file for everything. However, this isn't advised, as there is a benefit to being able to launch each launch file in a dedicated terminal. Having each launch file in it's own respective terminal can serve important purposes for interaction and information visualization. 
