@@ -64,7 +64,7 @@ In the previous project you constructed an RGB camera, now it's time to give tha
 
 To do this we will need to replace the existing camera and its shared object file: libgazebo_ros_camera.so to that off the Kinect shared object file: libgazebo_ros_openni_kinect.so. On top of this, additional parameters need to be set for the RGB-D camera as well as matching the topics published by the drivers of its real world counterpart. We have provided an example for the camera code.
 
-
+You may use the provided code, but you will need to make sure that you adjust for the required linkages in your URDF. Furthermore, you will need to be sure that you are publishing the correct topics and using the proper naming conventions. You will be taught some debugging techniques to help locate issues and resolve them in the upcoming concepts.
 
 ## Building Launch Files
 
