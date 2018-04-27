@@ -62,6 +62,9 @@ Furthermore, it can be noted that the scan input topic is a convenient way to ef
 
 In the previous project you constructed an RGB camera, now it's time to give that an upgrade. Specifically, we will simulate a Kinect camera. 
 
+To do this we will need to replace the existing camera and its shared object file: libgazebo_ros_camera.so to that off the Kinect shared object file: libgazebo_ros_openni_kinect.so. On top of this, additional parameters need to be set for the RGB-D camera as well as matching the topics published by the drivers of its real world counterpart. We have provided an example for the camera code.
+
+
 
 ## Building Launch Files
 
