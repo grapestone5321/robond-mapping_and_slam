@@ -259,8 +259,11 @@ It's now time to start taking all that you have learned and start using your cre
 Let's lay out the project steps:
 1. Download the supplied files or use 
 
-wget https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+Resources/Student+Project+Materials.zip
 
+``` bash
+wget https://s3-us-west-1.amazonaws.com/udacity-
+robotics/Term+2+Resources/P3+Resources/Student+Project+Materials.zip
+```
 to bring them into an environment with a terminal. 
 
 2. Create a ROS package that is able to launch your robot and have it map the surrounding area. 
@@ -275,7 +278,6 @@ Be sure to include the following items in your project submission:
 - A write up in PDF format that addresses the rubric points. Be sure to include sample images of your 2D Maps, 3D Maps, tf tree, etc. 
 - A copy of your ROS package. 
 - A copy of the RTAB-Map database for the supplied environment.
-
 
 
 
