@@ -256,7 +256,11 @@ Multisession Mapping is a great way to map specific areas and then come back to 
 It's now time to start taking all that you have learned and start using your created ROS package to create both a 2D and 3D map of the supplied environment. From there you will then build your own environment and use your ROS package to generate a 2D and 3D map of that environment. 
 
 Let's lay out the project steps:
-1. Download the supplied files to bring them into an environment with a terminal. 
+1. Download the supplied files or use 
+
+wget https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+Resources/Student+Project+Materials.zip
+
+to bring them into an environment with a terminal. 
 2. Create a ROS package that is able to launch your robot and have it map the surrounding area. 
 3. Use Debug tools and other checks mentioned in the lessons to verify that your robot is mapping correctly.
 4. Create a 3D map for the supplied environment.
