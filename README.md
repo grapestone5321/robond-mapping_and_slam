@@ -209,6 +209,7 @@ Let’s cover some basics that will help you create your own environment to map.
 4. Drag your selected objects into the environment and situate them to your liking (you can change their position, orientation, scale.)
 5. As you're build your environment, take into consideration that your robot will spawn at coordinates (0,0,0), so place the blue z-axis in Gazebo accordingly. 
 6. When you have everything situated the way you like, export the model: File -> Save World As, then navigate to your custom package, and then the ‘models’ directory, and save the file with a .world extension.
+
 7. When you are done, you may test your world by launching it as so, gazebo your_world.world
 
 This is a relatively simple way to generate a world file. If you are interested in building custom models to generate a hyper-realistic environment there will be links to do so below. This would add a fantastic personal touch to your project, however, using existing models is sufficient for passing the project.
@@ -261,6 +262,7 @@ Let's lay out the project steps:
 wget https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+Resources/Student+Project+Materials.zip
 
 to bring them into an environment with a terminal. 
+
 2. Create a ROS package that is able to launch your robot and have it map the surrounding area. 
 3. Use Debug tools and other checks mentioned in the lessons to verify that your robot is mapping correctly.
 4. Create a 3D map for the supplied environment.
