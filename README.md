@@ -72,6 +72,8 @@ You now know what needs to be done to upgrade your robot, so now it's time to tu
 
 In this project, you are required to create all of the necessary launch files. You have the resources to generate all of them except a mapping.launch file. We will walk through the creation of that file, but we expect you to assemble the rest to complete the project. Before we get to the mapping.launch file, let’s take a look at the ideal executable steps for this project to see what’s going on. 
 
+1) Launch the gazebo world and your robot. 
+
 A lot of these steps will seem familiar to you because you’ve seen them before in your last project. The new additions are:
 - Launching your own teleop node
 - Launching the mapping node
