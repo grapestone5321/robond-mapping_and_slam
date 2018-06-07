@@ -74,6 +74,10 @@ In this project, you are required to create all of the necessary launch files. Y
 
 1) Launch the gazebo world and your robot. 
 
+``` bash
+Example: $ roslaunch slam_project world.launch world_file:=~/catkin_ws/src/slam_project/worlds/kitchen_dining.world
+```
+
 A lot of these steps will seem familiar to you because you’ve seen them before in your last project. The new additions are:
 - Launching your own teleop node
 - Launching the mapping node
