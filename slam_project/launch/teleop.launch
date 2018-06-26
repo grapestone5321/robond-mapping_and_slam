@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- teleop already has its own built in velocity smoother -->
+  <node pkg="slam_project" type="teleop" name="teleop"  output="screen">
+  </node>
+</launch>
+
